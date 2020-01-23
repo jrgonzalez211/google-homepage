@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Google Homepage</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+    <link rel="stylesheet" href="./Google Homepage_files/style.css"></head>
+    <body>
+       <div class="nav-wrapper">
+           <div class="left-link-container">
+               <div class="left-links">
+                   <a href="http://127.0.0.1:5500/index.html#">About</a>
+                   <a href="http://127.0.0.1:5500/index.html#">Store</a>
+               </div>
+               <div class="right-link-container">
+                   <div class="right-links">
+                       <div class="mail-link">
+                           <a href="http://127.0.0.1:5500/index.html#">Gmail</a>
+                       </div>
+                       <div class="img-link">
+                            <a href="http://127.0.0.1:5500/index.html#">Images</a>
+                       </div> 
+                    </div>
+                    <div class="link-logos">
+                        <div class="menu-link">
+                            <a href="http://127.0.0.1:5500/index.html#"><img src="./Google Homepage_files/squared-menu.png"></a>
+                        </div>
+                        <div class="account-link">
+                            <a href="http://127.0.0.1:5500/index.html#"><img src="./Google Homepage_files/test-account.png"></a>
+                        </div>
+                    </div>
+                   
+               </div>
+           </div>
+           
+       </div>
+       <div class="main-container">
+           <div class="homepage-logo">
+               <img class="google-logo" src="./Google Homepage_files/google-logo-2.png" alt="The Google Logo">
+           </div>
+       </div>
+        
+        
+    <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>

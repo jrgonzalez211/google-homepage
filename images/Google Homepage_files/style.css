@@ -4,21 +4,21 @@ body {
     margin: 0 auto;
 }
 
-html {
-    box-sizing: border-box;
-}
-
 .nav-wrapper {
     background-color: cadetblue;
-}
-
-.right-links-container {
     display: flex;
-    align-items: center;
 }
 
-.right-links {
+.left-link-container {
     display: flex;
-    justify-content: flex-end;
+    margin: 0;
 }
 
+.right-link-container {
+    display: flex;
+    margin: 0;
+}
+
+.left-links {
+    flex-direction: column;
+}
